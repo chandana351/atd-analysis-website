@@ -1,0 +1,12 @@
+<svg width="320" height="140" viewBox="0 0 320 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="140" fill="white"/>
+  <path d="M28 77 L145 11 L145 115 L105 86 L28 77Z" fill="#111111"/>
+  <path d="M43 73 L134 22 L134 102 L103 80 L43 73Z" fill="#f51f21"/>
+  <path d="M30 77 L138 70 L107 87 L30 77Z" fill="#111111"/>
+  <path d="M45 77 L133 72 L105 83 L45 77Z" fill="#ffd51a"/>
+  <path d="M137 28 L137 112" stroke="#111111" stroke-width="8" stroke-linecap="square"/>
+  <path d="M137 28 L137 112" stroke="#f51f21" stroke-width="4" stroke-linecap="square"/>
+  <text x="137" y="86" font-family="Arial Black, Arial, sans-serif" font-size="66" font-weight="900" fill="#ffe419" stroke="#111111" stroke-width="4">T</text>
+  <text x="186" y="86" font-family="Arial Black, Arial, sans-serif" font-size="66" font-weight="900" fill="#20d344" stroke="#111111" stroke-width="4">D</text>
+  <text x="82" y="118" font-family="Arial, sans-serif" font-size="21" font-weight="700" fill="#222222">accurate traffic data</text>
+</svg>
