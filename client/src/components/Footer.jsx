@@ -25,9 +25,9 @@ export default function Footer() {
           <h3 className="font-black">Company</h3>
           <div className="mt-4 grid gap-2 text-sm text-slate-300">
             {companyLinks.map(([item, href]) => (
-              <a key={item} href={href} className="hover:text-white">
+              <Link key={item} to={href} className="hover:text-white">
                 {item}
-              </a>
+              </Link>
             ))}
           </div>
         </div>
