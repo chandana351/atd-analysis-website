@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 import { FaBars, FaEnvelope, FaFacebookF, FaLinkedinIn, FaPhoneAlt, FaTimes } from "react-icons/fa";
-import atdLogo from "../assets/atd-logo.svg";
+import velofitechLogo from "../assets/velofitech-logo.jpg";
 
 const navItems = [
   ["Home", "hero"],
@@ -86,7 +86,7 @@ export default function Navbar() {
 
       <nav className="section-shell flex h-20 items-center justify-between gap-3">
         <Link to="/" className="flex min-w-0 items-center" onClick={() => setOpen(false)}>
-          <img src={atdLogo} alt="Accurate Traffic Data logo" className="h-16 w-auto object-contain" />
+          <img src={velofitechLogo} alt="VeloFiTech logo" className="h-16 w-auto object-contain" />
         </Link>
 
         <div className="hidden min-w-0 flex-1 items-center justify-end gap-2 md:flex xl:gap-5">

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { services } from "../data/services";
-import atdLogo from "../assets/atd-logo.svg";
+import velofitechLogo from "../assets/velofitech-logo.jpg";
 
 const companyLinks = [
   ["About ATD", "/#about"],
@@ -15,7 +15,7 @@ export default function Footer() {
     <footer className="bg-navy text-white">
       <div className="section-shell grid gap-10 py-14 md:grid-cols-2 lg:grid-cols-4">
         <div>
-          <img src={atdLogo} alt="Accurate Traffic Data logo" className="h-20 w-auto rounded bg-white p-2" />
+          <img src={velofitechLogo} alt="VeloFiTech logo" className="h-20 w-auto rounded bg-white p-2" />
           <p className="mt-5 text-sm leading-7 text-slate-300">
             Accurate, reliable traffic video data processing for consultancies and survey firms worldwide.
           </p>
